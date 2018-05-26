@@ -1,0 +1,19 @@
+{
+  "name": "notes-vuepress",
+  "version": "0.0.1",
+  "description": "Writing notes in markdown and generating a SPA via vuepress.",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "./deploy.sh"
+  },
+  "author": "Eugen Mayer",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ioiooi/notes.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vuepress": "^0.10.0"
+  }
+}
