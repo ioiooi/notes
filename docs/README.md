@@ -11,3 +11,5 @@
 ## Ebooks
 
 [Node.js in Action](/ebooks/nodejs-in-action.md)
+
+[Secrets of the JavaScript Ninja](/ebooks/secrets-of-the-javascript-ninja.md)
