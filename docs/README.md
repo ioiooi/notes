@@ -8,6 +8,8 @@
 
 [Promises](/misc/promises.md)
 
+[Database](/misc/database.md)
+
 ## Ebooks
 
 [Node.js in Action](/books/nodejs-in-action.md)
