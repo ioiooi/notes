@@ -10,6 +10,8 @@
 
 [Database](/misc/database.md)
 
+[Deployment](/misc/deployment.md)
+
 ## Ebooks
 
 [Node.js in Action](/books/nodejs-in-action.md)
