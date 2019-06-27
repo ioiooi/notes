@@ -1,3 +1,9 @@
+# .NET naming conventions for EditorConfig
+
+Summary of what can be found in the official [Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-naming-conventions?view=vs-2019).
+
+> Naming conventions should be ordered from most-specific to least-specific in the EditorConfig file. The first rule encountered that can be applied is the only rule that is applied. However, if there are multiple rule properties with the same name, the most recently found property with that name takes precedence.
+
 ## Requirements
 
 Each Rule **must specify**:
