@@ -9,24 +9,22 @@ Each Rule **must specify**:
 | severity             | `silent`, `warning`, `error` etc...                            | severity                        |
 | styling              | `camel_case`, `all_upper`, `prefix`, `suffix` etc...           | capitalization, required_suffix |
 
-### Optional property
+##### Optional property
 
-|                 |                                                    |
-| --------------- | -------------------------------------------------- |
-| symbol modifier | `abstract`, `async`, `const`, `readonly`, `static` |
-|                 |                                                    |
+| What?           | Value                                              | Where              |
+| --------------- | -------------------------------------------------- | ------------------ |
+| symbol modifier | `abstract`, `async`, `const`, `readonly`, `static` | required_modifiers |
 
 ## Structure of a Rule
 
-1. Naming the Rule and Styling
+1. Naming and Severity  
+   Povide a name for the Rule. The `<namingRuleTitle>`, `<symbolTitle>` and `<styleTitle>` can be an arbitrary name.
 
 ```
 dotnet_naming_rule.<namingRuleTitle>.severity = suggestion
 dotnet_naming_rule.<namingRuleTitle>.symbols = <symbolTitle>
 dotnet_naming_rule.<namingRuleTitle>.style = <styleTitle>
 ```
-
-The `<namingRuleTitle>`, `<symbolTitle>` and `<styleTitle>` can be anything.
 
 2. Specify which symbol the Rule should be applied to
 
@@ -58,5 +56,3 @@ dotnet_naming_symbols.foobaz.required_modifiers = *
 dotnet_naming_style.async_method_style.capitalization = pascal_case
 dotnet_naming_style.async_method_style.required_suffix = Async
 ```
-
-The naming rule is called `foobar`
