@@ -14,6 +14,8 @@
 
 [Case conversion via `sed`](/misc/string-to-upper-sed-regex.md)
 
+[EditorConfig naming convention](/misc/editorconfig-naming-convention.md)
+
 ## Ebooks
 
 [Node.js in Action](/books/nodejs-in-action.md)
