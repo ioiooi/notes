@@ -49,7 +49,7 @@ dotnet_naming_style.<styleTitle>.required_suffix = Async
 
 ## Examples
 
-### `Async` methods should end with "Async"
+### `Async` methods should start with "Async\_" and end with "ASYNC"
 
 ```
 dotnet_naming_rule.foobar.severity = warning
@@ -57,8 +57,10 @@ dotnet_naming_rule.foobar.symbols = foobaz
 dotnet_naming_rule.foobar.style = async_method_style
 
 dotnet_naming_symbols.foobaz.applicable_kinds = method
-dotnet_naming_symbols.foobaz.required_modifiers = *
+dotnet_naming_symbols.foobaz.applicable_accessibilities = *
+dotnet_naming_symbols.foobaz.required_modifiers = async
 
 dotnet_naming_style.async_method_style.capitalization = pascal_case
-dotnet_naming_style.async_method_style.required_suffix = Async
+dotnet_naming_style.async_method_style.required_suffix = Async_
+dotnet_naming_style.async_method_style.required_suffix = ASYNC
 ```
