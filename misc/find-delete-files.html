@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Find and delete files | Notes</title>
+    <meta name="description" content="">
+    
+    
+    <link rel="preload" href="/notes/assets/css/0.styles.cfb5881d.css" as="style"><link rel="preload" href="/notes/assets/js/app.a83c60f1.js" as="script"><link rel="preload" href="/notes/assets/js/11.1153865b.js" as="script"><link rel="prefetch" href="/notes/assets/js/10.9eebc635.js"><link rel="prefetch" href="/notes/assets/js/12.692f90a0.js"><link rel="prefetch" href="/notes/assets/js/13.9f45077d.js"><link rel="prefetch" href="/notes/assets/js/14.fdfba6c6.js"><link rel="prefetch" href="/notes/assets/js/15.9ba6fc9c.js"><link rel="prefetch" href="/notes/assets/js/2.173a0891.js"><link rel="prefetch" href="/notes/assets/js/3.8e024c1b.js"><link rel="prefetch" href="/notes/assets/js/4.e8ed4ab1.js"><link rel="prefetch" href="/notes/assets/js/5.31c2f990.js"><link rel="prefetch" href="/notes/assets/js/6.0b68fd0e.js"><link rel="prefetch" href="/notes/assets/js/7.3137fc31.js"><link rel="prefetch" href="/notes/assets/js/8.9f523c0e.js"><link rel="prefetch" href="/notes/assets/js/9.3d4fb27d.js">
+    <link rel="stylesheet" href="/notes/assets/css/0.styles.cfb5881d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/notes/" class="home-link router-link-active"><!----> <span class="site-name">Notes</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <!----></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><!---->  <!----> </div> <div class="page"> <div class="content"><h1 id="find-and-delete-files"><a href="#find-and-delete-files" aria-hidden="true" class="header-anchor">#</a> Find and delete files</h1> <p>Using <code>find</code>, <code>xargs</code> and <code>rm</code>. Alternatively use <code>find [whatever] -delete</code> to achieve the same thing.</p> <h2 id="ex-1"><a href="#ex-1" aria-hidden="true" class="header-anchor">#</a> Ex 1</h2> <p><code>find . -name &quot;.txt&quot; -print0 | xargs -0 rm</code></p> <h2 id="ex-2"><a href="#ex-2" aria-hidden="true" class="header-anchor">#</a> Ex 2</h2> <p>Find files that have been:<br>
+Created in the last hour<br> <code>find . -type f -cmin -60</code></p> <p>Modified in the last hour<br> <code>find . -type f -mmin -60</code></p> <p>Accessed in the last hour<br> <code>find . -type f -amin -60</code></p> <p>For directories <code>-type d</code> or skip <code>type</code> entirely</p></div> <div class="page-edit"><!----> <!----></div> <!----> </div> <!----></div></div>
+    <script src="/notes/assets/js/app.a83c60f1.js" defer></script><script src="/notes/assets/js/11.1153865b.js" defer></script>
+  </body>
+</html>
