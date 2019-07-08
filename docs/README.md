@@ -16,6 +16,10 @@
 
 [EditorConfig naming convention](/misc/editorconfig-naming-convention.md)
 
+## Android
+
+[ArrayAdapter](/android/arrayadapter.md)
+
 ## Ebooks
 
 [Node.js in Action](/books/nodejs-in-action.md)
