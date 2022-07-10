@@ -61,6 +61,6 @@ dotnet_naming_symbols.foobaz.applicable_accessibilities = *
 dotnet_naming_symbols.foobaz.required_modifiers = async
 
 dotnet_naming_style.async_method_style.capitalization = pascal_case
-dotnet_naming_style.async_method_style.required_suffix = Async_
+dotnet_naming_style.async_method_style.required_prefix = Async_
 dotnet_naming_style.async_method_style.required_suffix = ASYNC
 ```
