@@ -16,6 +16,8 @@
 
 [EditorConfig naming convention](/misc/editorconfig-naming-convention.md)
 
+[Prefix Commit Messages](/misc/prefix-commit-messages.md)
+
 ## Android
 
 [ArrayAdapter](/android/arrayadapter.md)

@@ -1,15 +1,17 @@
 # Prefix Git Commit Messages with Branch Information
 
-This script works for branches like
+Works for branches like
 
 - `feature/JIRA-123`
 - `feature/JIRA-123_hello-world`
 - `JIRA-123`
 - `feature/lol/JIRA-123`
 
-It wont work for branches like
+Does not work for branches like
 
 - `feature/JIRA-123_hello-world/dev`
+
+The last slash `/` has to be followed by the ticket number and the ticket number has to stand alone or followed by a underscore `_`.
 
 ```sh
 #!/bin/bash
