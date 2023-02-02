@@ -4,13 +4,13 @@
 
 [Google - Promises introduction](https://developers.google.com/web/fundamentals/primers/promises)
 
-## Wrapping API
+## Promisify callback functions
 
 ### Example 1: setTimeout
 
 ```js
-const wait = ms => new Promise(resolve => setTimeout(resolve, ms));
-wait(10000).then(console.log('10 seconds'));
+const wait = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+wait(10000).then(console.log("10 seconds"));
 ```
 
 `wait()` gets invoked and does 2 things:
@@ -22,7 +22,7 @@ wait(10000).then(console.log('10 seconds'));
 
 ```js
 const docClient = new AWS.DynamoDB.DocumentClient();
-const get = params => {
+const get = (params) => {
   return new Promise((resolve, reject) => {
     docClient.get(params, (err, data) => {
       if (err) reject(err);
@@ -31,8 +31,8 @@ const get = params => {
   });
 };
 get({ foo: bar })
-  .then(data => console.log(data))
-  .catch(err => console.error(err));
+  .then((data) => console.log(data))
+  .catch((err) => console.error(err));
 ```
 
 - `resolve` and `reject` are getting called inside the callback function of the async api.
