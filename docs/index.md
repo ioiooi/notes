@@ -18,6 +18,8 @@
 
 [Prefix Commit Messages](/misc/prefix-commit-messages.md)
 
+[Add ssh-keys at startup](/misc/ssh-add-startup.md)
+
 ## Android
 
 [ArrayAdapter](/android/arrayadapter.md)

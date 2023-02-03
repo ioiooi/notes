@@ -27,6 +27,10 @@ export default {
             text: "Prefix Commit Messages",
             link: "/misc/prefix-commit-messages",
           },
+          {
+            text: "Add ssh-key at startup",
+            link: "/misc/ssh-add-startup",
+          },
         ],
       },
       {
