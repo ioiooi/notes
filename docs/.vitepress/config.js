@@ -31,6 +31,10 @@ export default {
             text: "Add ssh-key at startup",
             link: "/misc/ssh-add-startup",
           },
+          {
+            text: "Filter and sort grep matches by files",
+            link: "/misc/grep-awk-sort",
+          },
         ],
       },
       {

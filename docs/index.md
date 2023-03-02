@@ -20,6 +20,8 @@
 
 [Add ssh-keys at startup](/misc/ssh-add-startup.md)
 
+[Filter and sort grep matches by files](/misc/grep-awk-sort.md)
+
 ## Android
 
 [ArrayAdapter](/android/arrayadapter.md)
