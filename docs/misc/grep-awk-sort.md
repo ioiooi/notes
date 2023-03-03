@@ -57,7 +57,7 @@ awk -F: '$2>0 { print $2 "\t" $1 }'
 
 https://man7.org/linux/man-pages/man1/sort.1.html
 
-Default behavior of `sort` command is to sort by the first column/field/key whatever you wanna call it. The default field separator is a blank space. The whole command seems to work either way ¯\\\_(ツ)\_/¯
+Default behavior of `sort` command is to sort by the first column/field/key whatever you wanna call it. The default field separator is a blank space. `awk` returns a tab delimited string the whole thing seems to work either way ¯\\\_(ツ)\_/¯
 
 - `h` - Human readable
 - `r` - Default is ascending, this option reverses the order so the output is sorted in descending order.
