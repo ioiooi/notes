@@ -512,8 +512,8 @@ const pattern = new RegExp('test');
 **Repeated occurrences**
 
 * `?` ⇒ zero or one
-* `*` ⇒ one to many
-* `+` ⇒ zero to many
+* `*` ⇒ zero to many
+* `+` ⇒ 1 to many
 * `{number n}` ⇒ fixed number of n times
 * `{n1, n2}` ⇒ range
 * `{n1, }` ⇒ open-ended range
