@@ -1,1 +1,0 @@
-import{_ as s,c as a,o as n,N as e}from"./chunks/framework.96b9b284.js";const F=JSON.parse('{"title":"Unix Time","description":"","frontmatter":{},"headers":[],"relativePath":"misc/unix-time.md"}'),o={name:"misc/unix-time.md"},l=e("",13),p=[l];function t(r,c,i,C,D,y){return n(),a("div",null,p)}const d=s(o,[["render",t]]);export{F as __pageData,d as default};

@@ -1,1 +1,0 @@
-import{_ as e,c as a,o,N as s}from"./chunks/framework.96b9b284.js";const g=JSON.parse('{"title":"Filter and sort grep matches","description":"","frontmatter":{},"headers":[],"relativePath":"misc/grep-awk-sort.md"}'),t={name:"misc/grep-awk-sort.md"},n=s("",25),r=[n];function l(c,p,i,d,h,m){return o(),a("div",null,r)}const f=e(t,[["render",l]]);export{g as __pageData,f as default};
