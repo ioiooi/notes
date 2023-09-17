@@ -1,6 +1,8 @@
-# Filter and sort grep matches
+# Search, Count, and Sort File Matches using Regular Expression
 
-Searching for pattern in all folders and files of the current directory and sorting the result from highest to lowest number of occurences.
+Search for and analyze the occurrences of a specified regular expression within files located in the current directory and its subdirectories. Organize and present the results by counting the occurrences in each file and sorting them in descending order of count.
+
+Using `grep`, `awk` and `sort` to achieve this.
 
 ```sh
 grep -Erc '[fF]oobar' . | awk -v FS=":" -v OFS="\t" '$2>0 { print $2, $1 }' | sort -hr

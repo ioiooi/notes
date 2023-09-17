@@ -2,13 +2,15 @@
 
 ## Miscellaneous
 
-[Environment Variables](/misc/environment-variables.md)
+[Node.js Environment Variables](/misc/nodejs-environment-variables.md)
 
 [Unix Time](/misc/unix-time.md)
 
-[Promises](/misc/promises.md)
+[Promisify callback functions](/misc/promisify-callback-functions.md)
 
-[Database](/misc/database.md)
+[Fundamental Database Concepts](/misc/fundamental-database-concepts.md)
+
+[Find and delete files](/misc/find-and-delete-files.md)
 
 [Deployment](/misc/deployment.md)
 
@@ -16,11 +18,11 @@
 
 [EditorConfig naming convention](/misc/editorconfig-naming-convention.md)
 
-[Prefix Commit Messages](/misc/prefix-commit-messages.md)
+[Prefix Git Commit Messages Hook](/misc/prefix-git-commit-messages-hook.md)
 
-[Add ssh-keys at startup](/misc/ssh-add-startup.md)
+[Loading multiple ssh-keys on OSX and WSL2](/misc/loading-multiple-ssh-keys-on-osx-and-wsl2.md)
 
-[Filter and sort grep matches by files](/misc/grep-awk-sort.md)
+[Search, Count, and Sort File Matches using Regular Expression](/misc/search-count-sort-files-using-regex.md)
 
 [Generate TOC for MD structures](/misc/generate-toc-script.md)
 
