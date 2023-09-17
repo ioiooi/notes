@@ -22,6 +22,8 @@
 
 [Filter and sort grep matches by files](/misc/grep-awk-sort.md)
 
+[Generate TOC for MD structures](/misc/generate-toc-script.md)
+
 ## Android
 
 [ArrayAdapter](/android/arrayadapter.md)
