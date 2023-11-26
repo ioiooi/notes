@@ -35,6 +35,18 @@ export default {
             text: "Filter and sort grep matches by files",
             link: "/misc/grep-awk-sort",
           },
+          {
+            text: "Search, Count, and Sort File Matches using Regular Expression",
+            link: "/misc/search-count-sort-files-using-regex",
+          },
+          {
+            text: "Generate TOC for MD structures",
+            link: "/misc/generate-toc-script",
+          },
+          {
+            text: "WoW Macros",
+            link: "/misc/wow-macros",
+          },
         ],
       },
       {

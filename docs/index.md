@@ -26,6 +26,8 @@
 
 [Generate TOC for MD structures](/misc/generate-toc-script.md)
 
+[WoW Macros](/misc/wow-macros.md)
+
 ## Android
 
 [ArrayAdapter](/android/arrayadapter.md)
