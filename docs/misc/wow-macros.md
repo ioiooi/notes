@@ -1,5 +1,13 @@
 # WoW Macros
 
+## Table of Contents
+
+- [General](#general)
+- [Priest](#priest)
+- [Paladin](#paladin)
+- [Druid](#druid)
+- [Shaman](#shaman)
+
 ## General
 
 ### fishing
@@ -28,11 +36,44 @@ Summons different mounts based on the flyable status of the area.
 /cast [noflyable] Reins of the Swift Mistsaber
 ```
 
+### targeting and using offensive spells
+
+#### melee
+
+Clears dead/help targets and casts spell, initiating attack.
+
+```
+#showtooltip
+/cleartarget [dead][help]
+/cast insert_whatever_offensive_spell
+/startattack
+```
+
+#### range
+
+Clears target conditions and tragets the nearest enemy if not already having a target casts spell.
+
+```
+#showtooltip
+/cleartarget [dead][help]
+/targetenemy [noexists]
+/cast insert_whatever_offensive_spell
+```
+
+### basic healer macro
+
+Macro casts a friendly beneficial spell based on conditions: Alt modifier self-casts (@player), mouseover targets (@mouseover), or applies to the target's friendly (@targettarget,help) if applicable.
+
+```
+#showtooltip
+/cast [mod:alt,@player][@mouseover,help,nodead][help][@targettarget,help,nodead][] insert_whatever_spell
+```
+
 ### wand
 
 ```
 #showtooltip
-/cast !shoot
+/cast !Shoot
 ```
 
 ### runes
