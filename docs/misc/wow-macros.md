@@ -159,7 +159,9 @@ Casts Cleanse or Avenger's Shield based on modifiers.
 /cast [form:1/3,@mouseover,harm][form:1/3] Faerie Fire (Feral)(); [@mouseover,harm][] Faerie Fire
 ```
 
-### travel Form
+### Forms
+
+#### Travel Form
 
 Switches between Aquatic Form and Travel Form based on swimming status.
 
@@ -167,6 +169,29 @@ Switches between Aquatic Form and Travel Form based on swimming status.
 #showtooltip
 /cancelform [noform:2/4]
 /cast [swimming] Aquatic Form; [noswimming] Travel Form
+```
+
+#### Bear, Cat
+
+```
+#showtooltip Dire Bear Form
+/cancelform [noform:0]
+/use [mod:shift] 13
+/cast Dire Bear Form(Shapeshift)
+```
+
+```
+#showtooltip Cat Form
+/cancelform
+/cast Cat Form(Shapeshift)
+```
+
+#### Caster
+
+```
+#showtooltip
+/cancelform
+/stopcasting
 ```
 
 ### prowl + pounce

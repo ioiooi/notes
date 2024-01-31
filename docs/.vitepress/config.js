@@ -47,6 +47,10 @@ export default {
             text: "WoW Macros",
             link: "/misc/wow-macros",
           },
+          {
+            text: "WoW Macros - Hunter",
+            link: "/misc/wow-macros-hunter",
+          },
         ],
       },
       {

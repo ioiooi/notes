@@ -28,6 +28,8 @@
 
 [WoW Macros](/misc/wow-macros.md)
 
+[WoW Macros - Hunter](/misc/wow-macros-hunter.md)
+
 ## Android
 
 [ArrayAdapter](/android/arrayadapter.md)
