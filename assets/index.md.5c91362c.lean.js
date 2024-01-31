@@ -1,1 +1,0 @@
-import{_ as e,o as a,c as o,Q as s}from"./chunks/framework.92fc1742.js";const u=JSON.parse('{"title":"Hello VitePress","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),t={name:"index.md"},n=s("",21),i=[n];function r(l,c,h,m,d,p){return a(),o("div",null,i)}const _=e(t,[["render",r]]);export{u as __pageData,_ as default};
