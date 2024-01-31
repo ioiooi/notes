@@ -8,12 +8,13 @@ export default {
         text: "Miscellaneous",
         items: [
           {
-            text: "Environment Variables",
-            link: "/misc/environment-variables",
+            text: "Node.js Environment Variables",
+            link: "/misc/nodejs-environment-variables",
           },
           { text: "Unix Time", link: "/misc/unix-time" },
-          { text: "Promises", link: "/misc/promises" },
-          { text: "Database", link: "/misc/database" },
+          { text: "Promises", link: "/misc/promisify-callback-functions" },
+          { text: "Database", link: "/misc/fundamental-database-concepts" },
+          { text: "Find and delete files", link: "/misc/find-and-delete-files" },
           { text: "Deployment", link: "/misc/deployment" },
           {
             text: "Case conversion with `sed`",
@@ -25,15 +26,11 @@ export default {
           },
           {
             text: "Prefix Commit Messages",
-            link: "/misc/prefix-commit-messages",
+            link: "/misc/prefix-git-commit-messages-hook",
           },
           {
-            text: "Add ssh-key at startup",
-            link: "/misc/ssh-add-startup",
-          },
-          {
-            text: "Filter and sort grep matches by files",
-            link: "/misc/grep-awk-sort",
+            text: "Loading multiple ssh-keys at startup",
+            link: "/misc/loading-multiple-ssh-keys-on-osx-and-wsl2",
           },
           {
             text: "Search, Count, and Sort File Matches using Regular Expression",
