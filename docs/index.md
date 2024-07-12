@@ -12,7 +12,7 @@
 
 ## CLI and Scripting
 
-[Case conversion via `sed`](/cli-scripting/cas-conversion-sed-regex.md)
+[Case conversion via `sed`](/cli-scripting/case-conversion-sed-regex.md)
 
 [Find and delete files](/cli-scripting/find-and-delete-files.md)
 
