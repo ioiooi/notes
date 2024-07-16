@@ -92,9 +92,9 @@ After Node has located and evaluated your module, the require function returns t
 
 #### 3.1.2 Fine-tuning module creation using module.exports
 
-https://blog.tableflip.io/the-difference-between-module-exports-and-exports/
+<https://blog.tableflip.io/the-difference-between-module-exports-and-exports/>
 
-https://medium.freecodecamp.org/node-js-module-exports-vs-exports-ec7e254d63ac
+<https://medium.freecodecamp.org/node-js-module-exports-vs-exports-ec7e254d63ac>
 
 As a guideline, if the relationship between `exports` and `module.exports` seems like magic to you, ignore `exports` and only use `module.exports`.
 

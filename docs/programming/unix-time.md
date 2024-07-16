@@ -13,22 +13,22 @@ UTC +2 hours ⇒ CEST
 [MDN web docs - Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
 
 JavaScript Date objects are based on a time value that is the **number of milliseconds** since 00:00:00 UTC Thursday, 1 January 1970.
-Can only be instantiated by calling it as a constructor. Uses the systems locale.
+They can only be instantiated by calling the Date constructor and use the system's locale.
 
-Current UNIX Epoch Time in JavaScript:
+### Getting Current Unix Epoch Time
 
 ```js
 Math.floor(Date.now() / 1000);
 ```
 
-Current day but at a different time e.g. 17:15
+### Setting a Specific Time on the Current Day
 
 ```js
 const date = new Date();
 date.setHours(17, 15, 0);
 ```
 
-Difference in seconds between two dates e.g. now and one hour from now:
+### Calculating the Difference in Seconds Between Two Dates
 
 ```js
 const date = new Date();
@@ -42,9 +42,9 @@ Math.floor((date.getTime() - now) / 1000);
 
 [PHP Manual - Date and Time](https://www.php.net/manual/en/datetime.format.php)
 
-In PHP, you can manipulate Unix Time using the time() function and the DateTime class.
+In PHP, you can manipulate Unix Time using the `time()` function and the `DateTime` class.
 
-### Getting Current Unix Epoch Time in PHP
+### Getting Current Unix Epoch Time_
 
 ```php
 // Current Unix Epoch Time in seconds
@@ -54,7 +54,7 @@ $currentUnixTimeSeconds = time();
 $currentUnixTimeMilliseconds = round(microtime(true) * 1000);
 ```
 
-### Working with Unix Time Difference
+### Calculating the Difference in Seconds Between Two Dates_
 
 ```php
 $dateTime1 = new DateTime();
@@ -67,13 +67,13 @@ $unixTime2 = $dateTime2->getTimestamp();
 $differenceInSeconds = $unixTime2 - $unixTime1;
 ```
 
-## C#
+## C\#
 
 [Microsoft Docs - DateTime](https://docs.microsoft.com/en-us/dotnet/api/system.datetime)
 
-In C#, you can work with Unix Time using the DateTime class. Unix Time is represented as the number of seconds or milliseconds since January 1, 1970.
+In C#, you can work with Unix Time using the `DateTime` class. Unix Time is represented as the number of seconds or milliseconds since January 1, 1970.
 
-### Getting Current Unix Epoch Time in C#
+### Getting Current Unix Epoch Time*
 
 ```csharp
 // Current Unix Epoch Time in seconds
@@ -83,7 +83,7 @@ long unixTimeSeconds = (long)(DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalS
 long unixTimeMilliseconds = (long)(DateTime.UtcNow - new DateTime(1970, 1, 1)).TotalMilliseconds;
 ```
 
-### Working with Unix Time Differences
+### Calculating the Difference in Seconds Between Two Dates*
 
 ```csharp
 DateTime dateTime1 = DateTime.UtcNow;
