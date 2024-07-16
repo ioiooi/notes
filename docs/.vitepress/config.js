@@ -11,6 +11,7 @@ export default {
       {
         text: "Books",
         items: [
+          { text: "Clean Code", link: "/books/clean-code.md" },
           { text: "Node.js in Action", link: "/books/nodejs-in-action.md" },
           {
             text: "Secrets of the JavaScript Ninja",

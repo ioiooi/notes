@@ -6,7 +6,7 @@ Loading more than one key. For example `id_github` and `id_gitlab`.
 
 SSH config
 
-```
+```txt
 Host *.github.com
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_github
@@ -23,18 +23,18 @@ Edit your `~/.bashrc`, `~/.zshrc` or whatever rc file that corresponds to your s
 ssh-add &>/dev/null || eval `ssh-agent` &>/dev/null
 # ssh-agent has started
 [ $? -eq 0 ] && {
-	ssh-add ~/.ssh/id_github &>/dev/null
-	ssh-add ~/.ssh/id_gitlab &>/dev/null
+ ssh-add ~/.ssh/id_github &>/dev/null
+ ssh-add ~/.ssh/id_gitlab &>/dev/null
 }
 ```
 
 ## WSL2
 
-https://esc.sh/blog/ssh-agent-windows10-wsl2/
+<https://esc.sh/blog/ssh-agent-windows10-wsl2/>
 
 Install `keychain`
 
-```
+```sh
 sudo apt-get install keychain
 ```
 

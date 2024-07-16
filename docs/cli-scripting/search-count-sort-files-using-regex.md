@@ -10,7 +10,7 @@ grep -Erc '[fF]oobar' . | awk -v FS=":" -v OFS="\t" '$2>0 { print $2, $1 }' | so
 
 ## First part: `grep`
 
-https://man7.org/linux/man-pages/man1/grep.1.html
+<https://man7.org/linux/man-pages/man1/grep.1.html>
 
 - `E` - Use extended regular expressions (ERE) instead of basic ones (BRE)
 - `r` - Read all files under each directory, recursively
@@ -27,7 +27,7 @@ https://man7.org/linux/man-pages/man1/grep.1.html
 
 ## Second part: `awk`
 
-https://man7.org/linux/man-pages/man1/awk.1p.html
+<https://man7.org/linux/man-pages/man1/awk.1p.html>
 
 `awk` is going to filter out files with 0 matches and change the structure of the output from `<file>:<matches>` to `<matches>tab<file>`.
 
@@ -57,7 +57,7 @@ awk -F: '$2>0 { print $2 "\t" $1 }'
 
 ## Third part: `sort`
 
-https://man7.org/linux/man-pages/man1/sort.1.html
+<https://man7.org/linux/man-pages/man1/sort.1.html>
 
 Default behavior of `sort` command is to sort by the first column/field/key whatever you wanna call it. The default field separator is a blank space. `awk` returns a tab delimited string the whole thing seems to work either way ¯\\\_(ツ)\_/¯
 

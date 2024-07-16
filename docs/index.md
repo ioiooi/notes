@@ -6,6 +6,8 @@
 
 ## Books
 
+[Clean Code](/books/clean-code.md)
+
 [Node.js in Action](/books/nodejs-in-action.md)
 
 [Secrets of the JavaScript Ninja](/books/secrets-of-the-javascript-ninja.md)

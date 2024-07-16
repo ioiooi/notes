@@ -6,7 +6,7 @@ Using `find`, `xargs` and `rm`. Alternatively use `find [whatever] -delete` to a
 
 Find and remove all files with the ".txt" extension within the current directory and its subdirectories.
 
-```
+```sh
 find . -type f -name "*.txt" -print0 | xargs -0 rm
 ```
 
@@ -15,19 +15,19 @@ find . -type f -name "*.txt" -print0 | xargs -0 rm
 Find files that have been:  
 Created in the last hour
 
-```
+```sh
 find . -type f -cmin -60
 ```
 
 Modified in the last hour
 
-```
+```sh
 find . -type f -mmin -60
 ```
 
 Accessed in the last hour
 
-```
+```sh
 find . -type f -amin -60
 ```
 
@@ -37,6 +37,6 @@ For directories `-type d` or skip `type` entirely
 
 Find all folders but skip hidden folders
 
-```
+```sh
 find /path/to/search -type d -not -path '*/\.*'
 ```
