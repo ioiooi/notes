@@ -24,7 +24,7 @@ Test the build with:
 yarn docs:preview
 ```
 
-## Github Pages Deployment
+## 🚀 Github Pages Deployment 🚀
 
 Just copy/paste the official documentation
 
@@ -32,7 +32,7 @@ Just copy/paste the official documentation
 
 Commit on the `main` branch starts a GitHub Action which automatically deploys the app.
 
-### :danger: GitHub Pages Repository Settings :danger:
+### :warning: GitHub Pages Repository Settings :warning:
 
 Go to the repository settings -> Code and automation > Pages
 
