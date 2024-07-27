@@ -62,6 +62,8 @@ Programmers should avoid writing code solely to satisfy compilers by using arbit
 
 ### Avoid Mental Mapping
 
+Use intuitive names related to the problem or solution domain to avoid confusion. Single-letter names are only acceptable for small loop counters. Avoid placeholders and prioritize clarity.
+
 ### Class Names
 
 Classes and objects should have noun or noun phrase names like `Customer`, `WikiPage`, `Account`, and `AddressParser`. Avoid words like `Manager`, `Processor`, `Data`, or `Info` in the name of a class. A class name should not be a verb.
