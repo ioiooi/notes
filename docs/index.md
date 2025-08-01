@@ -34,6 +34,8 @@
 
 ## Gaming
 
+[WoW Macros - Warrior](/gaming/wow-macros-warrior.md)
+
 [WoW Macros - Hunter](/gaming/wow-macros-hunter.md)
 
 [WoW Macros](/gaming/wow-macros.md)
