@@ -61,6 +61,7 @@ export default {
       {
         text: "Gaming",
         items: [
+          { text: "WoW Macros - Warrior", link: "/gaming/wow-macros-warrior.md" },
           { text: "WoW Macros - Hunter", link: "/gaming/wow-macros-hunter.md" },
           { text: "WoW Macros", link: "/gaming/wow-macros.md" },
         ],
